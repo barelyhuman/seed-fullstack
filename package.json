@@ -1,0 +1,32 @@
+{
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "fix": "npx standard --fix || true"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "got": "^11.8.1",
+    "knex": "^0.21.17",
+    "mongodb": "^3.6.4",
+    "next": "10.0.5",
+    "pg": "^8.5.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "uuid": "^8.3.2"
+  },
+  "standard": {
+    "ignore": [
+      "/.next",
+      "/node_modules",
+      "/out"
+    ]
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
